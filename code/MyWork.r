@@ -1,5 +1,5 @@
 # copied from https://r-graph-gallery.com/272-basic-scatterplot-with-ggplot2.html
-library(ggplot2)
+library(tidyverse)
  
 # The iris dataset is provided natively by R
 #head(iris)
