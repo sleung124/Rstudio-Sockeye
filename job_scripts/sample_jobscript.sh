@@ -1,3 +1,22 @@
+#!/bin/bash
+
+#SBATCH --time=08:00:00
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --mem=64G
+#SBATCH --job-name=rstudio_job
+#SBATCH --account={YOUR-ALLOC}
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user={YOUR EMAIL}
+#SBATCH -o output.txt
+#PBS -e error.txt
+
+################################################################################
+
+# Change directory into the job dir
+cd $SLURM_SUBMIT_DIR
+
+# Load software environment
 module purge
 module load gcc/7.5.0 apptainer/1.3.1
 
