@@ -2,6 +2,11 @@
 
 - Toy workspace to show how to work with Rstudio and sockeye
 
+## Additional Recommended Sources:
+- Official Documentation: https://confluence.it.ubc.ca/display/UARC/RStudio+with+Apptainer
+- Different `rocker/verse` versions you can use: https://hub.docker.com/r/rocker/verse/tags
+- How to build `.sif` files with Apptainer: https://apptainer.org/docs/user/1.0/build_a_container.html
+
 ## What you will need:
 - dockerhub account
 - docker image you want to use
