@@ -5,9 +5,9 @@
 #SBATCH --ntasks=1
 #SBATCH --mem=64G
 #SBATCH --job-name=rstudio_job
-#SBATCH --account={YOUR-ALLOC}
+#SBATCH --account=st-wang85-1
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user={YOUR EMAIL}
+#SBATCH --mail-user=samuelleung124@gmail.com
 #SBATCH -o output.txt
 #PBS -e error.txt
 
